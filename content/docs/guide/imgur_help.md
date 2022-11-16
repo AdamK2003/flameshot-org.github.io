@@ -2,7 +2,7 @@
 title = "Imgur help"
 description = "Here we explain some of the Imgur-related issues and topics."
 date = 2022-07-29T00:26:24+03:00
-updated = 2022-07-29T00:26:24+03:00
+updated = 2022-11-16T16:09:13+00:00
 draft = false
 weight = 2
 sort_by = "weight"
@@ -17,11 +17,11 @@ top = true
 
 ## Creating your own custom Client ID
 
-In Flameshot we have provided our uses a common Client ID with which they can upload their screenshot without creating their own accounts on Imgur, but considering the sheer volume of our ever growing users it can happen more often that the users get an error similar to the following from Imgur which indicates that our hourly quota is full:
+In Flameshot we have provided our users with a common Client ID with which they can upload their screenshot without creating their own accounts on Imgur, but considering the sheer volume of our ever growing users it can happen more often that the users get an error similar to the following from Imgur which indicates that our hourly quota is full:
 
 > Error transferring https://api.imgur.com/3/image?title=&description=2022-07-12_12-26 - server replied: nginx
 
-To mittigate that, since version 11.0.0, users can use their own Client ID. This way their quota would be independent of other FLamehsot users. To create your own Client ID, lyou can follow the following steps:
+To mitigate that, since version 11.0.0, users can use their own Client ID. This way their quota would be independent of other Flameshot users. To create your own Client ID, you can follow the following steps:
 
 1. Login to your Imgur account
 2. go to <https://api.imgur.com/oauth2/addclient>
